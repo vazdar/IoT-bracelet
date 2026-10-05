@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PlatformIO / Arduino (firmware)
+.pio/
+.vscode/
+build/
+*.elf
+*.bin
+*.hex
+*.o
+
+# Dữ liệu nặng (tùy nhóm quyết định)
+data/raw/*
+!data/raw/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
